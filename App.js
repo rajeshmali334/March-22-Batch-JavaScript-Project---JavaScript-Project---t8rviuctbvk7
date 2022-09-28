@@ -1,4 +1,3 @@
-
 window.onload = () =>
 
 {
@@ -26,3 +25,5 @@ total = total.toFixed(2);
 
 document.querySelector('.tip').style.display = 'block';
 document.querySelector('#total').innerHTML = total;
+
+} 
