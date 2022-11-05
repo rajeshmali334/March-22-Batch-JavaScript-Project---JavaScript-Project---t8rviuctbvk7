@@ -10,8 +10,18 @@ let persons = document.querySelector('#persons').value;
 let service = document.querySelector('#services').value;
 
 console.log(service);
-if (amount === "" && service === 'Select' && persons ==="" ) {
-    alert("Please enter valid values");
+if (amount ===  "")   {
+    alert("Please enter valid amount");
+    return;
+}
+if( persons == "" )
+{
+    alert("Please enter valid presons");
+    return;
+}
+if (service == 'Select' )
+{
+    alert("Please enter valid service");
     return;
 }
 if (persons === '1')
