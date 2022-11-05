@@ -10,7 +10,7 @@ let persons = document.querySelector('#persons').value;
 let service = document.querySelector('#services').value;
 
 console.log(service);
-if (amount === '' && service === 'Select') {
+if (amount === "" && service === 'Select' && persons ==="" ) {
     alert("Please enter valid values");
     return;
 }
